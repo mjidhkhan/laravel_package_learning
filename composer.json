@@ -2,14 +2,24 @@
     "name": "g3t/press",
     "description": "lavavel package development",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "MHKhan",
-            "email": "majidhkhan@outlook.com"
-        }
-    ],
-    "require": {},
+    "authors": [{
+        "name": "MHKhan",
+        "email": "majidhkhan@outlook.com"
+    }],
+    "require": {
+        "erusev/parsedown": "^1.7"
+    },
     "require-dev": {
         "orchestra/testbench": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "G3T\\Press\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "G3T\\Press\\Tests\\": "tests/"
+        }
     }
 }
