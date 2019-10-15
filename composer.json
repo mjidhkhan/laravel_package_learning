@@ -1,0 +1,15 @@
+{
+    "name": "g3t/press",
+    "description": "lavavel package development",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MHKhan",
+            "email": "majidhkhan@outlook.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^4.2"
+    }
+}
